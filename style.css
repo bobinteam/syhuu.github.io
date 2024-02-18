@@ -1,0 +1,763 @@
+	body {
+		background-image: url("textures/smoothpaper.jpg");
+		background-size: cover;
+		display: block;
+		float: center;
+	}
+
+#navbar {
+display: flex;
+	width: 800px;
+	margin-left: auto;
+	margin-right: auto;
+	justify-content: center;
+}
+#navbutton {
+ display: block;
+	background: none;
+	border-style: none;
+	box-shadow: 0px 0px 0px #333
+}
+
+h1.blog {
+	color: black;
+}
+
+@media (prefers-color-scheme: light) {
+h1.blog {
+	color: black;
+}
+
+	body {
+		background-image: url("textures/smoothpaper.jpg") !important;
+	}
+
+	button {
+		display: inline-block;
+		background: linear-gradient(#f1f1f1, #c7c7c7);
+		border-style: solid;
+		border-width: 1px;
+		border-color: #999;
+		border-radius: 24px;
+		padding: 6px;
+		box-shadow: 0px 0px 2.5px #333;
+		margin: 4px;
+	}
+	
+		button:hover {
+		display: inline-block;
+		background: linear-gradient(#fff, #ddd);
+		border-style: solid;
+		border-width: 1px;
+		border-color: #000;
+		border-radius: 24px;
+		padding: 6px;
+		box-shadow: 0px 0px 15px #ffcd00;
+		margin: 4px;
+	}
+	
+		input {
+		display: inline-block;
+		background: linear-gradient(#fff, #eee);
+		border-style: solid;
+		border-width: 1px;
+		border-color: #999;
+		border-radius: 24px;
+		padding: 6px;
+		box-shadow: 0px 0px 2.5px #333;
+		margin: 4px;
+	}
+	
+		input:hover {
+		display: inline-block;
+		background: linear-gradient(#fff, #e5e5e5);
+		border-style: solid;
+		border-width: 1px;
+		border-color: #000;
+		border-radius: 24px;
+		padding: 6px;
+		box-shadow: 0px 0px 15px #6b00ff;
+		margin: 4px;
+	}
+}
+
+	button {
+		display: inline-block;
+		background: linear-gradient(#f1f1f1, #c7c7c7);
+		border-style: solid;
+		border-width: 1px;
+		border-color: #999;
+		border-radius: 24px;
+		padding: 6px;
+		box-shadow: 0px 0px 2.5px #333;
+		margin: 4px;
+	}
+	
+		button:hover {
+		display: inline-block;
+		background: linear-gradient(#fff, #ddd);
+		border-style: solid;
+		border-width: 1px;
+		border-color: #000;
+		border-radius: 24px;
+		padding: 6px;
+		box-shadow: 0px 0px 15px #ffcd00;
+		margin: 4px;
+	}
+	
+		input {
+		display: inline-block;
+		background: linear-gradient(#fff, #eee);
+		border-style: solid;
+		border-width: 1px;
+		border-color: #999;
+		border-radius: 24px;
+		padding: 6px;
+		box-shadow: 0px 0px 2.5px #333;
+		margin: 4px;
+	}
+	
+		input:hover {
+		display: inline-block;
+		background: linear-gradient(#fff, #e5e5e5);
+		border-style: solid;
+		border-width: 1px;
+		border-color: #000;
+		border-radius: 24px;
+		padding: 6px;
+		box-shadow: 0px 0px 15px #6b00ff;
+		margin: 4px;
+	}
+
+@media (prefers-color-scheme: dark) {
+	h1 {
+	color: white;
+	}
+	
+	
+		h2 {
+	color: white;
+	}
+	
+		h3 {
+	color: white;
+	}
+	
+		h4 {
+	color: white;
+	}
+	
+		h5 {
+	color: white;
+	}
+	
+		h6 {
+	color: white;
+	}
+	
+			p {
+	color: white;
+	}
+	
+	button {
+		display: inline-block;
+		background: linear-gradient(#111, #333);
+		border-style: solid;
+		border-width: 1px;
+		border-color: #000;
+		border-radius: 24px;
+		padding: 6px;
+		box-shadow: 0px 0px 2.5px #333;
+		margin: 4px;
+		color: white !important:
+	}
+
+		button:hover {
+		display: inline-block;
+		background: linear-gradient(#222, #444);
+		border-style: solid;
+		border-width: 1px;
+		border-color: #999;
+		border-radius: 24px;
+		padding: 6px;
+		box-shadow: 0px 0px 15px #ffcd00;
+		margin: 4px;
+		color: white !important:
+	}
+	
+		input {
+		display: inline-block;
+		background: linear-gradient(#000, #222);
+		border-style: solid;
+		border-width: 1px;
+		border-color: #000;
+		border-radius: 24px;
+		padding: 6px;
+		box-shadow: 0px 0px 2.5px #333;
+		margin: 4px;
+		color: white;
+	}
+
+		input:hover {
+		display: inline-block;
+		background: linear-gradient(#000, #222);
+		border-style: solid;
+		border-width: 1px;
+		border-color: #999;
+		border-radius: 24px;
+		padding: 6px;
+		box-shadow: 0px 0px 15px #6b00ff;
+		margin: 4px;
+		color: white;
+	}
+
+#tabbutton:hover {
+		background-image: url("textures/brushedmetaldark.jpg") !important;
+		border-color: #555 !important;
+}
+
+#tabbutton {
+		background-image: url("textures/brushedmetaldark.jpg") !important; 
+		border-color: #555 !important;
+	}
+	
+	#footerbutton:hover {
+		background-image: url("textures/brushedmetaldark.jpg") !important;
+		border-color: #555 !important;
+		margin-top: 16px;
+}
+
+#footerbutton {
+		background-image: url("textures/brushedmetaldark.jpg") !important; 
+		border-color: #555 !important;
+		margin-top: 16px;
+	}
+
+h1.blog {
+	color: white;
+}
+
+	body {
+		background-image: url("textures/smoothpaperdark.jpg") !important;
+	}
+	
+	table {
+		font-family: b612 regular, arial, sans-serif;
+	}
+
+	td, th {
+		border: 1px solid #444 !important;
+		color: #ffffff !important;
+	}
+
+	tr:nth-child(even) {
+		background-color: #000000 !important;
+	}
+
+	tr:nth-child(odd) {
+	background-color: #222 !important;
+	}
+}
+
+	#content {
+		margin-left: auto;
+		margin-right: auto;
+		display: block;
+		position: center;
+		    display: flex;
+    width: 800px !important;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: flex-start;
+	}
+	
+		#footerbutton:hover {
+		margin-top: 16px;
+}
+
+		#footerbutton {
+		margin-top: 16px;
+	}
+		
+	
+@media (prefers-color-scheme: light) {	
+	table {
+		font-family: b612 regular, arial, sans-serif;
+	}
+
+	td, th {
+		border: 1px solid #999;
+	}
+
+	tr:nth-child(even) {
+		background-color: #ffffff;
+	}
+
+	tr:nth-child(odd) {
+		background-color: #dddddd;
+		color: #000;
+	}
+}
+
+table {
+	font-family: b612 regular, arial, sans-serif;
+	border-collapse: collapse;
+	width: 100%;
+}
+
+td, th {
+	border: 1px solid #999999;
+	text-align: left;
+	padding: 4px;
+}
+
+tr:nth-child(even) {
+  background-color: #ffffff;
+}
+
+tr:nth-child(odd) {
+  background-color: #dddddd;
+}
+
+#tabs {
+	display: flex;
+	height: 48px;
+}
+
+@media (prefers-color-scheme: light) {
+#tabbutton:hover {
+		background-image: url("textures/brushedmetal.jpg");
+}
+
+#tabbutton {
+		background-image: url("textures/brushedmetal.jpg");
+
+}
+
+#footerbutton:hover {
+		background-image: url("textures/brushedmetal.jpg");
+}
+
+#footerbutton {
+		background-image: url("textures/brushedmetal.jpg");
+
+}
+}
+
+#tabbutton:hover {
+		display: inline-block;
+		background-image: url("textures/brushedmetal.jpg");
+		border-style: solid;
+		border-width: 1px;
+		border-color: #999;
+		border-radius: 12px;
+		padding: 4px;
+		height: 52px;
+		box-shadow: 0px 0px 15px #ffcd00;
+		margin-left: 12px;
+		width: 72px;
+		margin-top: -24px;
+}
+
+#tabbutton {
+		display: inline-block;
+		background-image: url("textures/brushedmetal.jpg");
+		border-style: solid;
+		border-width: 1px;
+		border-color: #999;
+		border-radius: 12px;
+		padding: 4px;
+		height: 48px;
+		box-shadow: 0px 0px 15px #333;
+		margin-left: 12px;
+		width: 64px;
+		margin-top: -24px;
+}
+
+#footerbutton:hover {
+		display: inline-block;
+		background-image: url("textures/brushedmetal.jpg");
+		border-style: solid;
+		border-width: 1px;
+		border-color: #999;
+		border-radius: 12px;
+		padding: 4px;
+		height: 52px;
+		box-shadow: 0px 0px 15px #ffcd00;
+		margin-left: 12px;
+		width: 72px;
+		margin-top: 24px;
+}
+
+#ClygroLogo {
+			display: inline-block;
+		background-image: url("Clygro Logo.svg");
+		border-style: solid;
+		border-width: 1px;
+		border-color: #999;
+		border-radius: 12px;
+		padding: 0px;
+		height: 48px;
+		box-shadow: 0px 0px 15px #333;
+		margin-left: 12px;
+		width: 48px;
+		margin-top: -24px;
+		background-size: 100%;
+}
+
+#footerbutton {
+		display: inline-block;
+		background-image: url("textures/brushedmetal.jpg");
+		border-style: solid;
+		border-width: 1px;
+		border-color: #999;
+		border-radius: 12px;
+		padding: 4px;
+		height: 48px;
+		box-shadow: 0px 0px 15px #333;
+		margin-left: 12px;
+		width: 64px;
+		margin-top: 24px;
+}
+
+
+
+@media (prefers-color-scheme: light) {
+	#main {
+		color: black;
+	}
+}
+
+	#main {
+		position: center;
+		width: 800px;
+		background-size: 800px;
+		position: center;
+		padding: 20px;
+		margin-left: auto;
+		marign-right: auto;
+	}
+
+@media (prefers-color-scheme: dark) {
+	#main {
+		color: white;
+	}
+}
+
+#ClygroLogo {
+		border-color: #555;
+}
+
+#content {
+	display:flex;
+	width: 100%;
+}
+
+p {
+		font-family: b612 regular;
+}
+
+@font-face {
+	font-family: b612 regular;
+	src: url("typefaces/B612-Regular.ttf");
+}
+h1 {
+	font-family: b612 regular, arial, sans-serif;
+	margin-bottom: 5px;
+	margin-top: 5px;
+}
+h2 {
+	font-family: b612 regular, arial, sans-serif;
+	margin-bottom: 5px;
+	margin-top: 5px;
+}
+h3 {
+	font-family: b612 regular, arial, sans-serif;
+	margin-bottom: 5px;
+	margin-top: 5px;
+}
+h4 {
+	font-family: b612 regular, arial, sans-serif;
+	margin-bottom: 5px;
+	margin-top: 5px;
+}
+h5 {
+	font-family: b612 regular, arial, sans-serif;
+	margin-bottom: 5px;
+	margin-top: 5px;
+}
+h6 {
+	font-family: b612 regular, arial, sans-serif;
+	margin-bottom: 5px;
+	margin-top: 5px;
+}
+
+#blogpost {
+	background-color: #ffcd00;
+	padding: 6px;
+	background: linear-gradient(#ffcd00, #cca400);
+	border-radius: 2.5px;
+	color: black;
+	box-shadow: 0px 0px 15px #000;
+	background-image: url("textures/stickynote.jpg") !important;
+	background-size: cover !important;
+	margin-bottom: 24px;
+}
+
+
+	#paperback {
+		background-image: url("textures/brushedmetal.jpg");
+		padding: 10px;
+		border-radius: 15px;
+		width: 300px;
+		border-width: 2px;
+		border-color: #555;
+		border-style: solid;
+		box-shadow: 0px 0px 25px #000;
+		margin-right: 10px;
+		color: white;
+	}
+
+@media (prefers-color-scheme: light) {
+	#paperback {
+		background-image: url("textures/brushedmetal.jpg") !important;
+	}
+
+	#paperback1 {
+		background-image: url("textures/brushedmetal.jpg") !important;
+	}
+}
+
+	#paperback1 {
+		margin-left: auto !important;
+		margin-right: auto !important;
+	}
+		#paperback {
+		float: right !important;
+	}
+
+@media (prefers-color-scheme: dark) {
+	#paperback {
+		background-image: url("textures/brushedmetaldark.jpg") !important;
+		border-color: #555;
+	}
+
+	#paperback1 {
+		background-image: url("textures/brushedmetaldark.jpg") !important;
+		border-color: #555;
+	}
+}
+
+	#paperback1 {
+		background-image: url("textures/brushedmetal.jpg");
+		padding: 10px;
+		border-radius: 15px;
+		width: 800px;
+		border-width: 2px;
+		border-color: #555;
+		border-style: solid;
+		box-shadow: 0px 0px 25px #000;
+		margin-right: 10px;
+		float: left;
+	}
+
+
+	#gallery {
+		display: block;
+		position: left;
+		float: left;
+		width: 300px;
+	}
+
+	#galleryphoto {
+		display: block;
+		position: left;
+		background-image: url("textures/smoothpaper.jpg");
+		width: 300px;
+		height: 275px;
+		padding: 10px;
+		box-shadow: 0px 0px 25px #000;
+		border-width: 1px;
+		border-color: #999;
+		border-style: solid;
+		border-radius: 2.5px;
+		margin-bottom: 10px;
+		float: left;
+		margin-bottom: 10px;
+		margin-left: 10px;
+	}
+
+@media (prefers-color-scheme: light) {
+	#galleryphoto {
+		background-image: url("textures/smoothpaper.jpg") !important;
+	}
+}
+@media (prefers-color-scheme: dark) {
+	#galleryphoto {
+		background-image: url("textures/smoothpaperdark.jpg") !important;
+		border-color: #000;
+	}
+	
+			#paperback {
+		float: right !important;
+	}
+}
+
+hr {
+	color: #999;
+	box-shadow: 0px 0px 5px #999;
+}
+
+	#footer {
+		color: black;
+		font-family: B612-Regular;
+	}
+
+@media (prefers-color-scheme: light) {
+	a:hover {
+		color: white;
+	}
+	a:visited {
+		color: #0000EE;
+	}
+
+	a:active {
+		color: #ffcd00;
+	}
+
+	a:link {
+		color: #0000EE;
+	}
+
+	#footer {
+		color: black !important;
+	}
+	
+::-webkit-scrollbar {
+  width: 16px;
+}
+
+::-webkit-scrollbar-track {
+  background: linear-gradient(#999, #888);
+  box-shadow: 0px 0px 25px #000;
+}
+
+::-webkit-scrollbar-thumb {
+	background: linear-gradient(#555, #666);
+	border-width: 2px;
+	border-color: #777;
+	border-style: solid;
+	border-radius: 16px;
+	box-shadow: 0px 0px 25px #000;
+}
+
+::-webkit-scrollbar-thumb:hover {
+	background: linear-gradient(#444, #333);
+	border-width: 3px;
+	border-color: #555;
+	box-shadow: 0px 0px 25px #fff;
+	}
+	
+	kbd {
+		background-color: #fff;
+		padding: 2px;
+		border-color: #999;
+		border-style: solid;
+		border-width: 2px;
+		border-radius: 8px;
+		margin-left: 2px;
+		margin-right: 2px;
+	}
+}
+
+@media (prefers-color-scheme: dark) {
+	a:hover {
+		color: white;
+	}
+	a:visited {
+		color: #00e1ff;
+	}
+
+	a:active {
+		color: #ffcd00;
+	}
+
+	a:link {
+		color: #00e1ff;
+	}
+
+	#footer {
+		color: white !important;
+	}
+	
+	kbd {
+		background-color: #222;
+		padding: 2px;
+		border-color: #111;
+		border-style: solid;
+		border-width: 2px;
+		border-radius: 8px;
+		margin-left: 2px;
+		margin-right: 2px;
+	}
+
+::-webkit-scrollbar {
+	width: 16px;
+}
+
+::-webkit-scrollbar-track {
+	background: #111;
+	box-shadow: 0px 0px 25px #000;
+}
+
+::-webkit-scrollbar-thumb {
+	background: linear-gradient(#888, #999);
+	border-width: 2px;
+	border-color: #666;
+	border-style: solid;
+	border-radius: 16px;
+	box-shadow: 0px 0px 25px #000;
+}
+
+::-webkit-scrollbar-thumb:hover {
+	background: #fff;
+	border-width: 3px;
+	border-color: linear-gradient (#888, #999);
+	box-shadow: 0px 0px 25px #fff;
+}
+
+#emailform {
+	color: white !important;
+	}
+}
+
+#emailform {
+		border-radius: 15px;
+		width: 50%;
+		margin-right: 10px;
+		color: black;
+		float: right;
+		height: 260px;
+		padding-right: 10px;
+}
+
+#social {
+	float: left;
+	width: 40%;
+	
+}
+
+	#galleryphotocontainer {
+		display: flex;
+		width: 100%;
+		flex-wrap: wrap;
+	}
+
+
+# leather https://www.flickr.com/photos/horiavarlan/5245029308
+# background https://www.patternpictures.com/water-line-reed/
+# paper https://www.wallpaperuse.com/vien/TboRbh/
+# smooth paper https://unsplash.com/photos/k4Lt0CjUnb0
+# brushed metal https://www.flickr.com/photos/webtreatsetc/4724731217
+# sticky note https://unsplash.com/photos/yellow-and-white-color-illustration-YIy1cd3xN4w
